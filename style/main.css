@@ -44,7 +44,127 @@ nav ul li:hover {
     color: white;
 }
 
+/* Banner */
+
+.Page-width {
+    max-width: 1250;
+    margin: auto;
+    padding: 0px 60px;
+
+}
+
+.Banner_Section {
+    padding:  60px 0px;
+    background: url(../Assets/assets/images/home/banner/bg_banner.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.Banner_Inner_Section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.Banner_Inner_Section .Banner_img {
+    padding: 30px;
+
+}
+
+.Banner_Inner_Section .Banner_img img {
+    border-radius: 50%;
+}
+
+.Banner_Inner_Section .Banner_Content {
+    padding-top: 150px
+}
+.Banner_Inner_Section .Banner_Content small {
+border-radius: 20px;
+background: #058B8C;
+color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 0px; 
+padding: 8px;
+}
+
+.Banner_Inner_Section .Banner_Content .Intro {
+    margin-top: 10px;
+    color: #1E1E1E;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+
+.Banner_Inner_Section .Banner_Content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.8px;
+}
+
+.Banner_Inner_Section .Banner_Content h2 span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.8px;
+}
+
+.Banner_Inner_Section .Banner_Content .Descrition {
+color: #1E1E1E;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+}
+
+
+.Banner_Button .Button1 {
+    border-radius: 48px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+
+    }
+    
+    .Banner_Button .Button2 {
+        border-radius: 48px;
+        color:black;
+        border: 2px solid #1E1E1E;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        background-color: transparent;
+    }
 /* footer */
+
 footer {
     max-width: 1250px;
     margin: auto;
