@@ -172,9 +172,7 @@ line-height: 40px;
 }
 .Banner_Section3 {
     background:url(../Assets/assets/images/home/elipse.png);
-    background-image: #C4C4C4;
     background-repeat:no-repeat;
-   
 }
 .Banner_Inner_Section3 {
     display: grid;
